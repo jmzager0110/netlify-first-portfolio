@@ -1,13 +1,22 @@
+:root{
+    --soft-teal: hsl(174, 83%, 93%);
+    --soft-blue: 	hsl(216, 89%, 89%);
+    --blue-violet: 	hsl(246, 62%, 84%);
+    --purple: hsl(273, 60%, 79%);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--soft-teal);
 }
 
 * {
   box-sizing: border-box;
+  color: var(--blue-violet);
 }
 
 main {
@@ -32,4 +41,29 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.menu-container{
+  position: relative;
+  width: 100%;
+  height: 7vh;
+  gap: 5rem;
+  justify-content: space-between;
+
+}
+
+.menu-items{
+  float: right;
+  justify-content: space-between;
+  margin: 0;
+  padding: 2rem;
+}
+
+.item{
+ text-decoration: none;
+padding: 2rem;
+}
+
+.item:hover{
+color: var(--purple);
 }

@@ -43,7 +43,7 @@ code {
   align-items: center;
 }
 
-.menu-container{
+.menu{
   position: relative;
   width: 100%;
   height: 7vh;
@@ -67,3 +67,41 @@ padding: 2rem;
 .item:hover{
 color: var(--purple);
 }
+
+.self{
+float: right;
+border-radius: 50%;
+}
+
+.self-text{
+float: right;
+}
+
+.meme{
+float: left;
+border-radius: 2.5rem;
+}
+
+.post-meme-text{
+float: right;
+}
+
+.dogs{
+float: right;
+}
+
+.dog-pic{
+float: left;
+border-radius: 5rem;
+}
+
+.school-heading{
+float: left;
+}
+
+.school-logo{
+float: right;
+}
+
+
+

@@ -29,6 +29,7 @@ export default function Home() {
          <section className="page">
             <h2>Holy Shit, another page!</h2>
             <p className="page-text">Well damn, would you look at that? Another page!</p>
+            </section>
             </div>
         <div>
          <section className="project">

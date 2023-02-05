@@ -19,8 +19,8 @@ body {
   color: var(--blue-violet);
 }
 
-main {
-  padding: 5rem 0;
+body {
+  padding: 5rem .25rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -28,12 +28,12 @@ main {
   align-items: center;
 }
 
-code {
+/*code {
   background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
-}
+}*/
 
 .container {
   height: 100vh;
@@ -41,45 +41,51 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 5rem;
 }
 
-.menu{
-  position: relative;
+#navbar {
+  overflow: hidden;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
   width: 100%;
-  height: 7vh;
-  gap: 5rem;
-  justify-content: space-between;
-
 }
 
-.menu-items{
-  float: right;
-  justify-content: space-between;
-  margin: 0;
-  padding: 2rem;
-}
-
-.item{
- text-decoration: none;
-padding: 2rem;
-}
-
-.item:hover{
-color: var(--purple);
-}
-
-.self{
-float: right;
-border-radius: 50%;
-}
-
-.self-text{
-float: right;
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
 }
 
 .meme{
 float: left;
 border-radius: 2.5rem;
+}
+
+.self{
+float: left;
+border-radius: 50%;
+}
+
+.self-text{
+float: right;
 }
 
 .post-meme-text{
@@ -101,6 +107,11 @@ float: left;
 
 .school-logo{
 float: right;
+}
+
+.construction{
+float: right;
+border-radius: 5rem;
 }
 
 

@@ -1,0 +1,17 @@
+.details{}
+
+.self{
+float: left;
+border-radius: 50%;
+padding: 0.25rem;
+}
+
+.deets{
+float: right;
+}
+
+.detail-list{}
+
+.detail-list-item{}
+
+.detail-item{}

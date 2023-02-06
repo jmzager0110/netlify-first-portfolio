@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Link from 'next/link'
+import Navbar from '@components/Navbar'
+import Details from '@components/Details'
 
 export default function Me() {
   return (
@@ -14,13 +16,7 @@ export default function Me() {
 
       <main>
         <Header title="Still, welcome to an app!" />
-               <div id="navbar">
-                         <Link  href="/">Home</Link>
-                         <Link  href="/me">About This Me</Link>
-                         <Link  href="/school">My Education</Link>
-                         <Link  href="/work">AQ Apprentice</Link>
-                         <Link  href="/page">The Fun Stuff</Link>
-                       </div>
+        <Navbar />
         <div>
          <section className="description">
             <h1>I Never Knew</h1>
@@ -59,16 +55,7 @@ export default function Me() {
                            up, I decided it was time to start chasing a career instead of just the next thing.</p>
          </section>
          </div>
-         <div>
-         <h2 id="details">My Details</h2>
-                          <img className="self" src="/self.jpg" height="150" width="auto"/>
-                <p className="deets">Heres some external resources about me, but if you feel so inclined, you can always <a href="mailto:jmzager@gmail.com">drop me a line</a></p>
-                <ul>
-                <li>Here is my <a className="detail-item" href="https://www.linkedin.com/in/jessica-zager0110">LinkedIn</a></li>
-                <li>I am working on getting some of my projects done on <a className="detail-item" href="https://github.com/jmzager0110">GitHub</a></li>
-                <li>See my Code Challenges work on <a className="detail-item" href="https://codepen.io/jmzager0110">CodePen</a></li>
-                </ul>
-                </div>
+         <Details />
       </main>
       <Footer />
     </div>

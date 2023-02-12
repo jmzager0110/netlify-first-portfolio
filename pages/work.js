@@ -15,7 +15,7 @@ export default function Work() {
       </Head>
 
       <main>
-        <Header title="Welcome to an app!" />
+        <Header title="You're still welcomed to an app!" />
         <Navbar />
         <div>
          <section className="work">
@@ -42,7 +42,7 @@ export default function Work() {
             <li>Regression Testing</li>
             <li>Functional Testing</li>
             <li>Automated Visual Regression Testing with BackstopJS and Selenium</li>
-            <li>Project Planning</li>
+            <li>Project Planning and Estimation</li>
             <li>Test Case Creation</li>
             <li>Load Testing with JMeter</li>
             <li>Accessibility Testing with various tools</li>

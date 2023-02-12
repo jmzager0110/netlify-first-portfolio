@@ -36,7 +36,22 @@ export default function Me() {
         </div>
         <div>
          <section className="project" id="project">
-
+            <h2>Prior Work Experience</h2>
+            <p>In high-school, I was enrolled in a program that made me a part-time student beginning my sophomore year,
+             so I had to start
+            working. I was a hostess at a nicer Mexican restaurant, got some hours at the local Baskin Robbins, then
+            really cut my teeth as a receptionist at a hair salon. Due to my learning track or lack thereof, I did not
+            get much chance at vocation.
+            </p><br></br>
+            <p>After I moved back to Kansas City, I worked while in community college. I
+            climbed the ranks from cashier to
+            department manager at a hardware store, then graduated earlier than I really wanted to. Without much
+            direction other than away from loading manure in the summer,
+             I started as a receptionist at a home services company, then all of a sudden it was six years later and I had ended up doing several jobs in every department and of three
+                           people. Finally using my Fine Arts Degree, I then became the lead processing tech for an
+                           underwriting firm in automotive
+                           aftermarket insurance. After five years in this job and a few failed attempts at moving
+                           up, I decided it was time to start chasing a career instead of just the next thing.</p>
          </section>
          </div>
          <Details />

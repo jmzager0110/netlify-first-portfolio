@@ -10,12 +10,12 @@ export default function Page() {
   <body>
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Not Likely to be Jay-Z</title>
+        <link rel="icon" href="/icon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to an app!" />
+        <Header title="Hey, look at that, it's still an app!" />
         <Navbar />
         <div>
          <section className="page">
